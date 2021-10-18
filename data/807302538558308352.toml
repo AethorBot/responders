@@ -1,0 +1,36 @@
+# Name = skytils
+
+[[responder]]
+message.content = """
+You can reset locations by right clicking on what you want to reset or using the scroll wheel
+to completely reset locations delete the locations file ( .minecraft/config/skytils/guipositions.json ) 
+"""
+triggers = [["location"]]
+
+[[responder]]
+message.content = """
+You cant have a / infront of the alias or it wont work
+https://cdn.discordapp.com/attachments/807302538558308355/848490813657841694/unknown.png
+"""
+triggers = [["aliases"]]
+
+[[responder]]
+message.content = """
+We dont have that bot smh
+"""
+triggers = [[".n"]]
+
+[[responder]]
+message.content = """
+https://cdn.discordapp.com/attachments/786149025098235918/867505281343553577/How_to_Download_101.mp4
+"""
+triggers = [["how", "where"], ["download", "mod"]]
+
+[[responder]]
+message.content = """
+Win key + R and then type `%appdata%\\.minecraft\\crash-reports`
+mac: `~/Library/Application Support/minecraft`
+Linux: You should know this if your using linux
+https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/2021-04-29T13-29-47.mp4
+"""
+triggers = [["send"], ["crash"]]

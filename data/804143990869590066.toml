@@ -1,0 +1,53 @@
+# Name = drm
+
+[[responder]]
+message.content = """
+https://quantizr.github.io/posts/is-it-bannable/
+"""
+triggers = [["bann"]]
+
+[[responder]]
+message.content = """
+https://quantizr.github.io/posts/how-to-install/
+"""
+triggers = [
+    [
+        'where',
+        'how',
+    ],
+    [
+        'install',
+        'get',
+        'download',
+    ],
+    [
+        'drm',
+        'dungeons rooms mod',
+        'dungeon rooms mod',
+        'dungeons room mod',
+        'dungeon room mod',
+        'this',
+    ],
+]
+
+[[responder]]
+message.content = """
+https://cdn.discordapp.com/attachments/827388251022950441/868187335215448124/waypointtts.mp4
+"""
+triggers = [["show", 'display'], ["dungeon", "waypoint", 'up']]
+
+[[responder]]
+message.content = """
+To remove the SBP secret images, you have to press a hotkey (which is configurable in the Minecraft controls menu). Default keys are O to open images, B for previous image, N for next image, and M to clear/remove images from the screen.
+"""
+triggers = [["next", "change", "move", "close", "rid"], ["image", "pic"]]
+
+[[responder]]
+message.content = """
+https://discord.gg/2UjaFqfPwJ
+
+**Download sbp from this server**
+Skyblock personalized, this mod is Dungeon Rooms Mod.
+Again, in addition to the Dungeon Rooms Mod you downloaded from this server, you need to download **SkyBlockPersonalized** from Skyblock Personalized Discord server
+"""
+triggers = [["how", "get", "where"], ["sbp", "skyblockplus", "personalized"]]
