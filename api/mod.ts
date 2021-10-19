@@ -26,9 +26,9 @@ async function handleRequest(request: Request) {
 			}
 		}
 	} else if (pathname.startsWith('/all')) {
-		const files = await Deno.readDir(`${Deno.cwd()}/data`);
+		const files = Deno.readDir(`${Deno.cwd()}/data`);
 
-		const data: Record<string, any> = {};
+		const data: Record<string, unknown> = {};
 		for await (const file of files) {
 			try {
 				const content = await Deno.readTextFile(
