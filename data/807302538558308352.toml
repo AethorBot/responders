@@ -48,4 +48,4 @@ triggers = [["how"], ["dye", "armor"]]
 message.content = """
 Thats skytils party assist, you can turn it off by typing /st and searching for Party Assist
 """
-triggers = [["$SKYTILS-"]]
+triggers = [["$skytils-"]]
