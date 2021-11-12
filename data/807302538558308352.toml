@@ -43,3 +43,9 @@ You can set the armor color by using /armocolor set <hex>
 For advanced usage see faq $13
 """
 triggers = [["how"], ["dye", "armor"]]
+
+[[responder]]
+message.content = """
+Thats skytils party assist, you can turn it off by typing /st and searching for Party Assist
+"""
+triggers = [["$SKYTILS-"]]
