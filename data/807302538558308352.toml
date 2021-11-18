@@ -49,3 +49,13 @@ message.content = """
 Thats skytils party assist, you can turn it off by typing /st and searching for Party Assist
 """
 triggers = [["$skytils-"]]
+[[responder]]
+message.content = """
+If you downloaded skytils from the github link **its safe**
+
+If you downloaded it via skyclient **its safe**
+
+if you got it via any other sources you should watch out
+"""
+
+triggers = [["is", "this", "mod", "skytils"], ["safe"]]
