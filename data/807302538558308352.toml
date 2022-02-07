@@ -40,9 +40,15 @@ message.content = """
 How to set armor color?
 You can set the armor color by using /armocolor set <hex>
 <http://hexpicker.com/#/ff0000>
-For advanced usage see faq $13
+For advanced usage see faq #13
 """
 triggers = [["how"], ["dye", "armor"]]
+
+[[responder]]
+message.content = """
+Enable chat tabs for copy chat to work
+"""
+triggers = [["copy"], ["chat"]]
 
 [[responder]]
 message.content = """
