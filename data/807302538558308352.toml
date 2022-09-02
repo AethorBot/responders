@@ -1,33 +1,33 @@
 # Name = skytils
 
 [[responder]]
-message.content = """
+message = """
 You can reset locations by right clicking on what you want to reset or using the scroll wheel
 to completely reset locations delete the locations file ( .minecraft/config/skytils/guipositions.json ) 
 """
 triggers = [["location"]]
 
 [[responder]]
-message.content = """
+message = """
 You cant have a / infront of the alias or it wont work
 https://cdn.discordapp.com/attachments/807302538558308355/848490813657841694/unknown.png
 """
 triggers = [["aliases"]]
 
 [[responder]]
-message.content = """
+message = """
 We dont have that bot smh
 """
 triggers = [[".n"]]
 
 [[responder]]
-message.content = """
+message = """
 https://cdn.discordapp.com/attachments/786149025098235918/867505281343553577/How_to_Download_101.mp4
 """
 triggers = [["how", "where"], ["download", "mod"]]
 
 [[responder]]
-message.content = """
+message = """
 Win key + R and then type `%appdata%\\.minecraft\\crash-reports`
 mac: `~/Library/Application Support/minecraft`
 Linux: You should know this if your using linux
@@ -36,7 +36,7 @@ https://cdn.discordapp.com/attachments/807302782432051230/845361400288772126/202
 triggers = [["send"], ["crash"]]
 
 [[responder]]
-message.content = """
+message = """
 How to set armor color?
 You can set the armor color by using /armocolor set <hex>
 <http://hexpicker.com/#/ff0000>
@@ -45,18 +45,18 @@ For advanced usage see faq #13
 triggers = [["how"], ["dye", "armor"]]
 
 [[responder]]
-message.content = """
+message = """
 Enable chat tabs for copy chat to work
 """
 triggers = [["copy"], ["chat"]]
 
 [[responder]]
-message.content = """
+message = """
 Thats skytils party assist, you can turn it off by typing /st and searching for Party Assist
 """
 triggers = [["$skytils-"]]
 [[responder]]
-message.content = """
+message = """
 If you downloaded skytils from the github link **its safe**
 
 If you downloaded it via skyclient **its safe**

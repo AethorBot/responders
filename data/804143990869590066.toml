@@ -1,13 +1,13 @@
 # Name = drm
 
 [[responder]]
-message.content = """
+message = """
 https://quantizr.github.io/posts/is-it-bannable/
 """
 triggers = [["bann"]]
 
 [[responder]]
-message.content = """
+message = """
 https://quantizr.github.io/posts/how-to-install/
 """
 triggers = [
@@ -31,19 +31,19 @@ triggers = [
 ]
 
 [[responder]]
-message.content = """
+message = """
 https://cdn.discordapp.com/attachments/827388251022950441/868187335215448124/waypointtts.mp4
 """
 triggers = [["show", 'display'], ["dungeon", "waypoint", 'up']]
 
 [[responder]]
-message.content = """
+message = """
 To remove the SBP secret images, you have to press a hotkey (which is configurable in the Minecraft controls menu). Default keys are O to open images, B for previous image, N for next image, and M to clear/remove images from the screen.
 """
 triggers = [["next", "change", "move", "close", "rid"], ["image", "pic"]]
 
 [[responder]]
-message.content = """
+message = """
 https://discord.gg/2UjaFqfPwJ
 
 **Download sbp from this server**
