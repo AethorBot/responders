@@ -22,6 +22,13 @@ triggers = [[".n"]]
 
 [[responder]]
 message = """
+this is a known issue and will be fixed in the next version of skytils
+this was caused by a change on hypixel's end
+"""
+triggers = [["DateTimeParseException at ReceiveEvent"]]
+
+[[responder]]
+message = """
 https://cdn.discordapp.com/attachments/786149025098235918/867505281343553577/How_to_Download_101.mp4
 """
 triggers = [["how", "where"], ["download", "mod"]]
